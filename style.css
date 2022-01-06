@@ -1,20 +1,17 @@
 body {
-  font-family: "Poppins", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
 h1 {
   font-size: 50px;
 }
 h5 {
-  font-size: 10px;
+  font-size: 15px;
+}
+h2 {
+  font-size: 40px;
 }
 .colored {
   color: crimson;
-}
-.line-style {
-  border-left: 7px solid;
-  border-image: linear-gradient(purple, tomato);
-  border-image-slice: 1;
 }
 .button-style {
   text-decoration: none;
@@ -77,6 +74,9 @@ h5 {
   background-position: right 70px bottom;
   padding-right: 50px;
   padding-left: 50px;
+}
+.resume-style {
+  margin-left: 90px;
 }
 .resume-area {
   background-image: url(images/shapes/shape-4.png);
