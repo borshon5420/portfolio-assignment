@@ -5,6 +5,76 @@ body {
 h1 {
   font-size: 40px;
 }
+h5 {
+  font-size: 10px;
+}
 .colored {
   color: crimson;
+}
+.button-style {
+  text-decoration: none;
+  background-image: linear-gradient(crimson, tomato);
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 90%;
+}
+.flexible-section {
+  display: flex;
+  margin-bottom: 10px;
+}
+#mission {
+  text-align: center;
+}
+.margin-design {
+  margin: 10px 200px 50px;
+}
+.mission-design {
+  background-color: lightgrey;
+  width: 33.33%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.vission-design {
+  background-color: lightpink;
+  width: 33.33%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.goals-design {
+  background-color: lightgoldenrodyellow;
+  width: 33.33%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.develop-section {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: left;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+.global-section {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: right 70px bottom;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+footer {
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
 }
