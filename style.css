@@ -3,13 +3,18 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 h5 {
   font-size: 10px;
 }
 .colored {
   color: crimson;
+}
+.line-style {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
 }
 .button-style {
   text-decoration: none;
@@ -72,6 +77,19 @@ h5 {
   background-position: right 70px bottom;
   padding-right: 50px;
   padding-left: 50px;
+}
+.resume-area {
+  background-image: url(images/shapes/shape-4.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.education-experience {
+  box-shadow: 10px 10px 50px gray;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 15px;
 }
 footer {
   text-align: center;
