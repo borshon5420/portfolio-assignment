@@ -1,0 +1,10 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+.colored {
+  color: crimson;
+}
